@@ -262,6 +262,30 @@ $(document).ready(function() {
 
 
         <script>
+            $(function() {
+                $('ul.nav a').bind('click', function(event) {
+                    var $anchor = $(this);
+
+                    $('html, body').stop().animate({
+                        scrollTop: $($anchor.attr('href')).offset().top
+                    }, 2500, 'easeInOutExpo');
+                    event.preventDefault();
+                    history.pushState(3, $anchor.attr('href'), $anchor.attr('href'));
+                });
+            });
+
+            $(function() {
+                $('.smooth').bind('click', function(event) {
+                    var $anchor = $(this);
+
+                    $('html, body').stop().animate({
+                        scrollTop: 0
+                    }, 2500, 'easeInOutExpo');
+                    event.preventDefault();
+                    history.pushState(3, $anchor.attr('href'), $anchor.attr('href'));
+                });
+            });
+
             $(document).ready(function() {
 
                 // initialize the plugin, pass in the class selector for the sections of content (blocks)
