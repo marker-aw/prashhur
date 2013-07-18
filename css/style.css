@@ -381,3 +381,109 @@ nav ul li:hover a, nav ul li.active a {
     font-size: 15px;
     line-height: 19px;
 }
+
+.faces {
+    width: 960px;
+    margin: 0 auto;
+    display: block;
+    background: none;
+    padding: 0;
+    width: 350px;
+    padding: 500px 655px 0 0px;
+    top: -726px;
+    position: relative;
+}
+
+.face {
+    background: url(../images/sprite.png);
+}
+
+.face-01 {
+    position: absolute;
+    top: 449px;
+    left: 252px;
+    background-position: 0px 0px;
+    display: block;
+    height: 36px;
+    width: 30px;
+}
+
+.face-02 {
+    position: absolute;
+    top: 461px;
+    left: 301px;
+    background-position: -40px 0px;
+    display: block;
+    height: 41px;
+    width: 34px;
+}
+
+.face-03 {
+    position: absolute;
+    top: 492px;
+    left: 252px;
+    background-position: -260px 0px;
+    display: block;
+    height: 60px;
+    width: 48px;
+}
+
+.face-04 {
+    position: absolute;
+    top: 447px;
+    left: 183px;
+    background-position: -200px 0px;
+    display: block;
+    height: 58px;
+    width: 47px;
+}
+
+.face-05 {
+    position: absolute;
+    top: 509px;
+    left: 142px;
+    background-position: -529px 0px;
+    display: block;
+    height: 112px;
+    width: 90px;
+}
+
+.face-06 {
+    position: absolute;
+    top: 490px;
+    left: 45px;
+    background-position: -444px 0px;
+    display: block;
+    height: 103px;
+    width: 80px;
+}
+
+.face-07 {
+    position: absolute;
+    top: 408px;
+    left: 90px;
+    background-position: -260px 0px;
+    display: block;
+    height: 60px;
+    width: 48px;
+}
+
+.face-08 {
+    position: absolute;
+    top: 435px;
+    left: 12px;
+    background-position: -200px 0px;
+    display: block;
+    height: 58px;
+    width: 47px;
+}
+
+.face-09 {
+    position: absolute;
+    top: 400px;
+    left: 202px;
+    background-position: -40px 0px;
+    display: block;
+    height: 41px;
+    width: 34px;
+}
