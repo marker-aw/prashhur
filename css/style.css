@@ -333,6 +333,24 @@ nav ul li:hover a, nav ul li.active a {
 .block_service_9 .b_center {
     background-color: #FFFCD8;
 }
+.block_oder {
+    position: relative;
+    z-index: 300;
+}
+.block_oder .b_top {
+    background-position: center -2072px;
+}
+.block_oder .b_bottom {
+    background-position: center -2221px;
+}
+.block_oder .b_center {
+    background-color: #FFFCD8;
+}
+.block_oder .content {
+    width: 960px !important;
+    text-align: left !important;
+}
+
 
 
 .service_article_1 {
@@ -348,7 +366,7 @@ nav ul li:hover a, nav ul li.active a {
 
 .service_article_2 {
     width: 100%;
-    height: 800px;
+    height: 930px;
     background: url(../images/house.png) center top no-repeat #fff;   
     z-index: 180;
 }
@@ -383,4 +401,30 @@ nav ul li:hover a, nav ul li.active a {
     background-position: 0px -380px;
     font-size: 15px;
     line-height: 19px;
+}
+
+.form_row {
+    margin: 10px 0;
+}
+.form_title {
+    color: #D43F1C;
+    font-size: 14px;
+    font-weight: bold;
+    margin: -50px 0 20px 0;
+}
+.field-description {
+    padding: 0 20px 0 0;
+    width: 290px;
+    float: left;
+}
+.field-input {
+    width: 520px;
+    float: left;
+}
+.field-input input {
+    width: 100%;
+    height: 22px;
+    border: 1px solid rgb(219, 219, 219);
+    outline: none;
+    padding: 1px 5px;
 }
