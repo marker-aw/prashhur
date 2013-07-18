@@ -152,7 +152,9 @@ nav ul li:hover a, nav ul li.active a {
 /* SECTIONS */
 .home {background: url(../images/tree.png) center top no-repeat; height: 970px; margin-top: -180px;}
 .services {}
-
+.why {background: url(../images/why.jpg) center top no-repeat; height: 970px;}
+.process {background: url(../images/process.jpg) center top no-repeat; height: 970px;}
+.contact {}
 .contact {background:url(../images/section2.png) center -190px  no-repeat; margin:0; height: 1100px;padding: 300px 0 0 0;}
 
 
@@ -375,6 +377,7 @@ nav ul li:hover a, nav ul li.active a {
     width: 155px;
     height: 190px;
     padding: 60px 195px 0px 90px;
+    margin: 100px 0 0 250px;
     position: relative;
     color: #fff;
     background-position: 0px -380px;
