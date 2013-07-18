@@ -177,7 +177,7 @@
                     var $anchor = $(this);
 
                     $('html, body').stop().animate({
-                        scrollTop: $($anchor.attr('href')).offset().top
+                        scrollTop: $($anchor.attr('href')).offset().top-185
                     }, 2500, 'easeInOutExpo');
                     event.preventDefault();
                     history.pushState(3, $anchor.attr('href'), $anchor.attr('href'));
@@ -217,13 +217,13 @@
 
 
                 scrollorama
-                        .animate('.block_service_1',{delay: 0, duration: 300, property:'margin-top', start: 150, end: 0})
-                        .animate('.block_service_2',{delay: 150, duration: 300, property:'margin-top', start: 150, end: -250})
-                        .animate('.block_service_3',{delay: 300, duration: 300, property:'margin-top', start: 150, end: -250})
-                        .animate('.block_service_4',{delay: 450, duration: 300, property:'margin-top', start: 150, end: -250})
-                        .animate('.block_service_5',{delay: 600, duration: 300, property:'margin-top', start: 150, end: -250})
-                        .animate('.block_service_6',{delay: 750, duration: 300, property:'margin-top', start: 150, end: -250})
-                        .animate('.block_service_7',{delay: 900, duration: 300, property:'margin-top', start: 150, end: -250})
+                        .animate('.block_service_1',{delay: 0, duration: 300, property:'margin-top', start: 150, end: -130})
+                        .animate('.block_service_2',{delay: 150, duration: 300, property:'margin-top', start: 150,  end: -250})
+                        .animate('.block_service_3',{delay: 300, duration: 300, property:'margin-top', start: 150,  end: -250})
+                        .animate('.block_service_4',{delay: 450, duration: 300, property:'margin-top', start: 150,  end: -250})
+                        .animate('.block_service_5',{delay: 600, duration: 300, property:'margin-top', start: 150,  end: -255})
+                        .animate('.block_service_6',{delay: 750, duration: 300, property:'margin-top', start: 150,  end: -250})
+                        .animate('.block_service_7',{delay: 900, duration: 300, property:'margin-top', start: 150,  end: -250})
                         .animate('.block_service_8',{delay: 1050, duration: 300, property:'margin-top', start: 150, end: -250})
                         .animate('.block_service_9',{delay: 1200, duration: 300, property:'margin-top', start: 150, end: -250});
 
