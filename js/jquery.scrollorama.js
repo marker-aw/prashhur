@@ -80,6 +80,10 @@
 		function onScroll() {
             latestKnownScrollY = window.scrollY;
             requestTick();
+            
+            var block_why = $('#services');
+            //console.log(block_why.css('height'));
+            
         }
         
         function requestTick() {
@@ -118,7 +122,7 @@
 							}
 							if (blocks[i].pin) {
 								blocks[i].block
-								.css('position', 'absolute')
+								//.css('position', 'absolute') // need for normal height
 								.css('top', blocks[i].top);
 							}
 						}
