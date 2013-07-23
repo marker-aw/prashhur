@@ -258,8 +258,6 @@
             </div>
             <div class="b_bottom"></div>
         </div>
-        
-        
     </section><!--END OF SERVICES !-->
     <div class="clear"></div>   
 
@@ -404,7 +402,29 @@
         </header>
         
         <article class="process_article">
-               
+            <div class="b_bottom" style="background-position: center -2221px; position: relative; z-index: 10;"></div>
+            <div class="gallery">
+                <div class="arrow arrowLeft"></div>
+                <div class="arrow arrowRight"></div>
+                <ul>
+                    <li><img src="images/1.jpg" height="100%" width="100%" alt=""/></li>
+                    <li><img src="images/2.jpg" height="100%" width="100%" alt=""/></li>
+                    <li><img src="images/3.jpg" height="100%" width="100%" alt=""/></li>
+                </ul>
+            </div>
+            <div class="b_top" style="background-position: center -2400px; margin-top: -114px; position: relative; z-index: 10;"></div>
+
+            <script type="text/javascript">
+                jQuery(function(){
+                    jQuery(".gallery").jCarouselLite({
+                        auto: 6000,
+                        speed: 600,
+                        vertical: false,
+                        btnNext: ".arrowRight",
+                        btnPrev: ".arrowLeft"
+                    });
+                });
+            </script>
         </article>
         
     </section><!--END OF PROCESS !-->

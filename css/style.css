@@ -657,3 +657,36 @@ nav ul li:hover a, nav ul li.active a {
 .process .block .b_center {
     min-height: 30px;
 }
+
+.gallery {
+    margin-top: -116px;
+    width: 100% !important;
+}
+
+.gallery li {
+    width: 33.3%;
+    height: auto !important;
+    border-right: 2px solid #d4bb74;
+}
+
+.gallery .arrow {
+    display: block;
+    height: 100px;
+    width: 50px;
+    z-index: 100;
+    position: absolute;
+    top: 100px;
+    cursor: pointer;
+}
+
+.arrowLeft {
+    left: 180px;
+    background: url(../images/arrows.png);
+    background-position: 0px 0px;
+}
+
+.arrowRight {
+    right: 180px;
+    background: url(../images/arrows.png);
+    background-position: -50px 0px;
+}
