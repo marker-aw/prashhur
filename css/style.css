@@ -154,8 +154,8 @@ nav ul li:hover a, nav ul li.active a {
 .services {height: 2830px !important;}
 .why {background: url(../images/why.png) center top no-repeat; height: 970px; margin-top: -200px; background-color: #6B552C;}
 .process {background: url(../images/process.jpg) center top no-repeat; height: 1820px; margin-top: -50px;}
-.result {height: 830px !important;}
-.contact {background:url(../images/section2.png) center -190px  no-repeat; margin:0; height: 1100px;padding: 300px 0 0 0;}
+.result {background: url(../images/old-books.jpg) center top no-repeat; height: 830px !important;}
+.contact {background:url(../images/section2.png) center 0px  no-repeat; margin:0; height: 886px;}
 
 
 
@@ -722,3 +722,42 @@ nav ul li:hover a, nav ul li.active a {
     color: #000;
     line-height: 72px;
 }
+
+.block_contact {
+    width: 100%;
+    height: 250px;
+    padding: 50px 0;
+    box-shadow: 0px 0px 27px 5px rgb(105, 105, 105);
+    background-color: #fff;
+    position: relative;
+    margin-top: -25px;
+}
+.c_logo {
+    width: 325px;
+    height: 235px;
+    background-position: -306px -144px;
+    float: left;
+    margin-right: 120px;
+}
+.c_address, .c_phones {
+    float: left;
+    margin-top: 100px;
+}
+.c_address {
+    width: 250px;
+}
+.c_phones {
+    width: 150px;
+}
+
+.c_map {
+    width: 100%;
+    height: 500px;
+}
+
+/* Footer */
+
+.copyright {
+    padding: 20px 60px;
+}
+
