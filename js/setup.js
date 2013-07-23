@@ -83,7 +83,14 @@ $(document).ready(function() {
             .animate('.s_lines', {delay: 900, duration: 250, property: 'height', start: 0, end: 260});
 
 
-
+    scrollorama
+            .animate('#block_stage_1', {delay: 350, duration: 300, property: 'margin-top', start: 150, end: -135})
+            .animate('#block_stage_2', {delay: 500, duration: 300, property: 'margin-top', start: 150, end: -255})
+            .animate('#block_stage_3', {delay: 650, duration: 300, property: 'margin-top', start: 150, end: -255})
+            .animate('#block_stage_4', {delay: 800, duration: 300, property: 'margin-top', start: 150, end: -250})
+            .animate('#block_stage_5', {delay: 950, duration: 300, property: 'margin-top', start: 150, end: -255})
+            .animate('#block_stage_6', {delay: 1100, duration: 300, property: 'margin-top', start: 150, end: -250})
+            .animate('#block_stage_7', {delay: 1250, duration: 300, property: 'margin-top', start: 150, end: -250});
 
 
     /*
