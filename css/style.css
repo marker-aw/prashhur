@@ -154,7 +154,7 @@ nav ul li:hover a, nav ul li.active a {
 .services {height: 2830px !important;}
 .why {background: url(../images/why.png) center top no-repeat; height: 970px; margin-top: -200px; background-color: #6B552C;}
 .process {background: url(../images/process.jpg) center top no-repeat; height: 970px; margin-top: -50px;}
-.contact {}
+.result {height: 2830px !important;}
 .contact {background:url(../images/section2.png) center -190px  no-repeat; margin:0; height: 1100px;padding: 300px 0 0 0;}
 
 
@@ -667,6 +667,9 @@ nav ul li:hover a, nav ul li.active a {
     width: 33.3%;
     height: auto !important;
     border-right: 2px solid #d4bb74;
+}
+.gallery li img{
+    width: 100%;
 }
 
 .gallery .arrow {
