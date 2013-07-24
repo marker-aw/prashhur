@@ -98,11 +98,15 @@ $(document).ready(function() {
      */
 
     $(".gallery").jCarouselLite({
-        auto: 6000,
+//        auto: 6000,
         speed: 600,
         vertical: false,
         btnNext: ".arrowRight",
         btnPrev: ".arrowLeft"
+    });
+
+    $("a[rel^='prettyPhoto']").prettyPhoto({
+        default_width: 800
     });
 
 });

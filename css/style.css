@@ -658,18 +658,33 @@ nav ul li:hover a, nav ul li.active a {
     min-height: 30px;
 }
 
-.gallery {
+.gallery_block {
+    width: 100%;
+    overflow: hidden;
+    position:  relative;
     margin-top: -116px;
-    width: 100% !important;
+}
+
+.gallery {
+    /*margin-top: -116px;*/
+    width: 1920px;
+    position: absolute;
+    left: 50% !important;
+    margin-left: -960px;
 }
 
 .gallery li {
-    width: 33.3%;
+    width: 640px;
+    max-height: 480px !important;
+    min-height: 480px !important;
     height: auto !important;
-    border-right: 2px solid #d4bb74;
+    overflow: hidden !important;
+    /*border-right: 2px solid #d4bb74;*/
 }
 .gallery li img{
     width: 100%;
+    display: block;
+    margin: auto;
 }
 
 .gallery .arrow {
@@ -678,18 +693,20 @@ nav ul li:hover a, nav ul li.active a {
     width: 50px;
     z-index: 100;
     position: absolute;
-    top: 100px;
+    top: 190px;
     cursor: pointer;
 }
 
 .arrowLeft {
-    left: 180px;
+    left: 50%;
+    margin-left: -420px;
     background: url(../images/arrows.png);
     background-position: 0px 0px;
 }
 
 .arrowRight {
-    right: 180px;
+    right: 50%;
+    margin-right: -420px;
     background: url(../images/arrows.png);
     background-position: -50px 0px;
 }
