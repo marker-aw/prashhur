@@ -3,6 +3,24 @@ $(document).ready(function() {
     /** 
      * Navigation
      */
+
+    var menuItems = $('.nav > li');
+
+    $(window).scroll(function(){
+        var pos = 0;
+        windowY = window.scrollY;
+        sections = $('section');
+        for(i = 0; i < sections.length; i++) {
+            sectionY = sections.eq(i).position().top;
+            if(windowY+300 > sectionY) {
+                pos = i;
+            }
+        }
+        menuItems.removeClass('active');
+        if (pos > 0)
+            menuItems.eq(pos - 1).addClass('active');
+    })
+
     $(function() {
         $('ul.nav a').bind('click', function(event) {
             var $anchor = $(this);
@@ -35,15 +53,6 @@ $(document).ready(function() {
 
     // initialize the plugin, pass in the class selector for the sections of content (blocks)
     var scrollorama = $.scrollorama({blocks: 'section'});
-    var menuItems = $('.nav > li');
-
-    // assign function to add behavior for onBlockChange event
-    scrollorama.onBlockChange(function() {
-        var i = scrollorama.blockIndex;
-        menuItems.removeClass('active');
-        if (i > 0)
-            menuItems.eq(i - 1).addClass('active');
-    });
 
 
     scrollorama
