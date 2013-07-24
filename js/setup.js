@@ -100,6 +100,9 @@ $(document).ready(function() {
             .animate('#block_stage_5', {delay: 950, duration: 300, property: 'margin-top', start: 150, end: -255})
             .animate('#block_stage_6', {delay: 1100, duration: 300, property: 'margin-top', start: 150, end: -250})
             .animate('#block_stage_7', {delay: 1250, duration: 300, property: 'margin-top', start: 150, end: -250});
+    
+    scrollorama
+            .animate('#block_result', {delay: 750, duration: 200, property: 'margin-top', start: 0, end: 100});    
 
 
     /*

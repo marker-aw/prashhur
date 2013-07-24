@@ -715,6 +715,11 @@ nav ul li:hover a, nav ul li.active a {
 
 /* RESULT */
 
+#block_result {
+    margin-top: -175px;
+    position: relative;
+    z-index: 100;
+}
 #block_result .b_center {
     height: 310px;
 }
