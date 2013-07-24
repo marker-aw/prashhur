@@ -5,12 +5,13 @@ $(document).ready(function() {
      */
 
     var menuItems = $('.nav > li');
+    var sections = $('section');
+    var sectionsCount = sections.length;
 
     $(window).scroll(function(){
         var pos = 0;
         windowY = window.scrollY;
-        sections = $('section');
-        for(i = 0; i < sections.length; i++) {
+        for(i = 0; i < sectionsCount; i++) {
             sectionY = sections.eq(i).position().top;
             if(windowY+300 > sectionY) {
                 pos = i;
